@@ -1,0 +1,37 @@
+frameworks:
+- electron
+- some css framework
+    - something with a good looking table
+- some js component framework
+    - probably vue
+    - maybe react if we can find a good table component
+- webpack
+- modern js; no pre-es6 bs
+    - dont care about ie compatibility
+    
+goals:
+- keyboard shortcuts for quick editing, adding, and deleting rows and cells
+- array columns (mult items per cell)
+- links 
+    - object literal: {title, link} 
+    - markdown string: "[title](link)"
+    - ctrl-k shortcut (defaults to object literal)
+- open/save in json, yml, csv, and md
+- fast loading times
+- sidebar file browser
+- properties file per-folder
+    - per table:
+        - color
+        - dropdown columns
+
+https://denisraslov.github.io/grid/
+- things this is missing:
+    - delete cells and rows using keyboard
+    - re-order rows using keyboard
+    - search by tags
+- things this has:
+    - lazy loading
+    - can handle thousands of rows
+    - api for editing cells
+    
+    
